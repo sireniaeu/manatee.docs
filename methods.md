@@ -15,6 +15,8 @@ http://.../v1/ContextAction/Perform/<action-id>
 
 Arguments can be given as form-data or as a JSON document when the `Content-Type` is set to `application/x-www-form-urlencoded` for the former and  `application/json` for the latter.
 
+The result of performing a flow will always be returned as a JSON document.
+
 {% sample lang="bash" %}
 Example using `curl`- assumes token is found in `token.jwt` file.
 
