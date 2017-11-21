@@ -1,9 +1,9 @@
-# Defining Methods
+# Context Actions
 
-Methods allow you to smoothly display code examples in different languages.
+The Context Actions (`/ContextAction`) endpoint can be used to execute actions in the active session of a running Manatee.
 
 {% method %}
-## My first method
+## 
 
 My first method exposes how to print a message in JavaScript and Go.
 
