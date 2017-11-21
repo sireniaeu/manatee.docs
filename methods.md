@@ -49,7 +49,3 @@ $ curl -XPOST -d "{'[]-an-arg-tbd-1': '12345678'}" -H  "Content-Type=application
 ```
 
 {% endmethod %}
-
- 
- 
- {% endmethod %}
