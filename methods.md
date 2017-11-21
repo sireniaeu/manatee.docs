@@ -1,11 +1,11 @@
 # Context Actions
 
-The Context Actions (`/ContextAction`) endpoint can be used to execute actions in the active session of a running Manatee.
+The v1 *context actions* endpoint (with base at `/v1/ContextAction`)  can be used to execute actions in the active session of a running Manatee.
 
 {% method %}
 ## Perform
 
-The Perform method executes a named action/flow given that the arguments match the configured flow.
+The *perform* method executes a named action/flow given that the arguments match the configured flow.
 
 The *identifier* of the flow is given as part of the url:
 
