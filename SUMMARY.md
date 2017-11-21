@@ -6,5 +6,6 @@
 
 ## Methods
 
+* [Authentication](authentication.md)
 * [Context Actions](methods.md)
 

@@ -3,9 +3,9 @@
 The Context Actions (`/ContextAction`) endpoint can be used to execute actions in the active session of a running Manatee.
 
 {% method %}
-## 
+## Perform
 
-My first method exposes how to print a message in JavaScript and Go.
+The Perform method executes a named action/flow given that the arguments match
 
 {% sample lang="js" %}
 Here is how to print a message to `stdout` using JavaScript.
