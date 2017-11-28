@@ -96,7 +96,7 @@ $ curl -XPOST -d "[eu.sirenia]Action.In.CPR=12345678" -H "Authorization: Bearer 
 Example using `curl` and JSON.
 
 ```bash
-$ curl -XPOST -d "{'[]-an-arg-tbd-1': '12345678'}" -H  "Content-Type=application/json" -H "Authorization: Bearer $(cat token.jwt)" ".../v1/ContextAction/Perform/[eu.sirenia]Action.Id.Demo"
+$ curl -XPOST -d "{'[eu.sirenia]Action.In.CPR': '12345678'}" -H  "Content-Type=application/json" -H "Authorization: Bearer $(cat token.jwt)" ".../v1/ContextAction/Perform/[eu.sirenia]Action.Id.Demo"
 ```
 
 {% endmethod %}
