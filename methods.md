@@ -27,27 +27,27 @@ $ curl -XPOST -d "arg1=value1" -d "arg2=value2" -H "Authorization: Bearer $(cat 
 {% endmethod %}
 
 {% method %}
-### Perform the NNN action
+### Perform the DEMO action
 
-The NNN action has `[]to-be-decided` as its id. 
+The NNN action has `[eu.sirenia]flow.id.demo` as its id. 
 
 It needs the following arguments:
 
- * `[]-an-arg-tbd-1` (string) the patient identifier (CPR)
+ * `[eu.sirenia]flow.in.cpr` (string) the patient identifier (CPR)
 
 
 {% sample lang="bash" %}
 Example using `curl` and form-data.
 
 ```bash
-$ curl -XPOST -d "[]-an-arg-tbd-1=12345678" -H "Authorization: Bearer $(cat token.jwt)" ".../v1/ContextAction/Perform/[]to-be-decided"
+$ curl -XPOST -d "[eu.sirenia]flow.in.cpr=12345678" -H "Authorization: Bearer $(cat token.jwt)" ".../v1/ContextAction/Perform/[eu.sirenia]flow.id.demo"
 ```
 
 {% sample lang="bash" %}
 Example using `curl` and JSON.
 
 ```bash
-$ curl -XPOST -d "{'[]-an-arg-tbd-1': '12345678'}" -H  "Content-Type=application/json" -H "Authorization: Bearer $(cat token.jwt)" ".../v1/ContextAction/Perform/[]to-be-decided"
+$ curl -XPOST -d "{'[]-an-arg-tbd-1': '12345678'}" -H  "Content-Type=application/json" -H "Authorization: Bearer $(cat token.jwt)" ".../v1/ContextAction/Perform/[eu.sirenia]flow.id.demo"
 ```
 
 {% endmethod %}
