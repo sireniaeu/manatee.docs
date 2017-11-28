@@ -78,7 +78,7 @@ $ curl -XPOST -H "Authorization: Bearer $(cat token.jwt)"".../v1/ContextAction/P
 {% method %}
 ### Perform the DEMO action
 
-The NNN action has `[eu.sirenia]Action.Id.Demo` as its id. 
+The *Demo* action has `[eu.sirenia]Action.Id.Demo` as its id. 
 
 It needs the following arguments:
 
